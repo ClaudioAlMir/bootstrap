@@ -149,7 +149,7 @@ Esto agregará estilos adicionales a nuestros botones que hacen que nuestro siti
 
 Quizás se te está pasando por la mente que son demasiadas clases y que jamás te las aprenderás, tranquilo que a medida que desarrollas más prácticas se te incrustarán en el cerebro estos conceptos, además siempre tienes la documentación oficial para hacer un repaso mental.
 
-<img src="/img/card.png" alt="card con bootstrap">
+<img :src="$withBase('/img/card.png')" alt="card con bootstrap">
 
 Este fue un pequeño ejemplo de lo podereoso que es Bootstrap, ya que son muchos componentes que podemos utilizar en nuestros sitios web.
 
